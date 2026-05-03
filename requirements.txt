@@ -1,0 +1,5 @@
+flask
+groq
+pymupdf==1.24.0
+python-dotenv
+gunicorn
