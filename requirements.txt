@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 flask
 groq
 pymupdf==1.24.0
 python-dotenv
 gunicorn
 numpy
+=======
+flask
+groq
+pymupdf==1.24.0
+python-dotenv
+gunicorn
+>>>>>>> 5599ccfce10a329c37abe2f1e767e1ec9720d3aa

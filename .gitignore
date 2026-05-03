@@ -2,5 +2,6 @@
 .venv/
 uploads/
 __pycache__/
-*.pdf
 app/__pycache__/
+*.pyc
+*.pdf
