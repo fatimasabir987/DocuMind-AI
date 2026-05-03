@@ -1,14 +1,12 @@
-<<<<<<< HEAD
 from app import create_app
+import webbrowser
+import threading
 
 app = create_app()
 
-if __name__ == '__main__':
-=======
-from app import create_app
-
-app = create_app()
+def open_browser():
+    webbrowser.open('http://127.0.0.1:5000')
 
 if __name__ == '__main__':
->>>>>>> 5599ccfce10a329c37abe2f1e767e1ec9720d3aa
+    threading.Timer(1.5, open_browser).start()
     app.run(debug=True)
